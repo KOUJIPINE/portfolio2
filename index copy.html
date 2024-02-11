@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>パンダのポートフォリオ</title>
+  <meta name="description" content="パンダの実績、スキル紹介">
+  <meta name="viewport" content="width=device-width">
+  <script src="./js/toggle-menu.js"></script>
+  <link href="./css/common.css" rel="stylesheet">
+  <link href="./css/index.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- headerここから -->
+  <header class="header">
+    <div class="header-inner">
+      <a class="header-logo" href="./index.html">
+        <img src="./images/index/ガンパンダ.jpg" alt="PANDA">
+      </a>
+      <button class="toggle-menu-button"></button>
+      <div class="header-site-menu">
+        <nav class="site-menu">
+          <ul>
+            <li><a href="#PROFILE">PROFILE</a></li>
+            <li><a href="#WORKS">WORKS</a></li>
+            <li><a href="#SKIL">SKIL</a></li>
+            <li><a href="#CONTACT">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- headerここまで -->
+
+  <!-- mainここから -->
+  <main class="main">
+    <div class="first-view">
+      <div class="first-view-text">
+        <h1>PANDA'S<br>PORTFOLIO</h1>
+      </div>
+    </div>
+    <div class="PROFILE">
+      <h2 id="PROFILE">PROFILE</h2>
+      <div class="feature">
+        <img src="./images/index/ガンパンダ.jpg" alt="PANDA">
+        <div class="feature-text">
+          <table>
+            <tr><th width="30%" align="left" height="40">出生</th><td width="65%">鹿児島</td></tr>
+            <tr><th align="left" height="40">在住</th><td>大阪</td></tr>
+            <tr><th align="left" height="40">好きな動物</th><td>ポメラニアン</td></tr>
+            <tr><th align="left" height="60">将来の夢</th><td>在宅でWEB製作しながらポメラニアンと生活したい<td>  </tr>
+          </table>
+         
+        </div>
+      </div>
+      </div>
+    <div class="WORKS">
+      <h2 id="WORKS">WORKS</h2>
+      <ul class="item-list">
+        <li>
+          <a href="https://koujipine.github.io/kissa/" target="_blank">
+          <img src="./images/index/喫茶.jpeg" alt="KIISA_HP画像">
+          <dl>
+            <dt>KISSA（模写）</dt>
+          </dl>
+          </a>
+        </li>
+        <li>
+          <a href="https://koujipine.github.io/dekiru/" target="_blank">
+          <img src="./images/index/豆柴.jpg" alt="豆柴_HP画像">
+          <dl>
+            <dt>豆柴  花子の雑記帳(模写) </dt>
+          </dl>
+          </a>
+        </li>
+        <li>
+          <a href="https://koujipine.github.io/syakyou/" target="_blank">
+          <img src="./images/index/建設.jpeg" alt="建設会社_HP画像">
+          <dl>
+            <dt>蒼野建設（模写）</dt>
+          </dl>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="SKIL">
+      <h2 id="SKIL">SKIL</h2>
+      <center>
+        <img class="pc" src="./images/index/スキル画像（狭い）.png" style="margin-top: 80px;">
+      </center>
+        <img class="sp" src="./images/index/スキル画像（狭い）小.png" style="margin-top: 80px;">
+    </div>
+    <div class="CONTACT">
+      <h2 id="CONTACT">CONTACT</h2>
+      <form action="#">
+        <dl class="form-area">
+          <dt><span class="required">お名前</span></dt>
+          <dd><input class="input-text" type="text" name="name" required></dd>
+          <dt><span class="required">メールアドレス</span></dt>
+          <dd><input class="input-text" type="email" name="email" required></dd>
+          <dt>お電話番号</dt>
+          <dd><input class="input-text" type="tel" name="tel"></dd>
+          <dt>お問い合わせ件名</dt>
+          <dd><input class="input-text" type="title" name="title" required></dd>
+          <dt><span class="required">お問い合わせ内容</span></dt>
+          <dd><textarea class="message" name="message" required></textarea></dd>
+        </dl>
+        <p class="confirm-text">ご入力内容をご確認の上、お間違いがなければ［送信］ボタンを押してください。</p>
+        <button class="submit-button" type="submit">送信</button>
+      </form>
+    </div>
+  </main>
+  <!-- mainここまで -->
+
+  <!-- footerここから -->
+  <footer class="footer">
+    <nav class="site-menu">
+      <ul>
+        <li><a href="#PROFILE">PROFILE</a></li>
+        <li><a href="#WORKS">WORKS</a></li>
+        <li><a href="#SKIL">SKIL</a></li>
+        <li><a href="#CONTACT">CONTACT</a></li>
+      </ul>
+    </nav>
+  
+    <p class="copyright"><small>&copy;PANDA</small></p>
+  </footer>
+  <!-- footerここまで -->
+
+</body>
+
+</html>
